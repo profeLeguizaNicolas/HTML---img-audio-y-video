@@ -121,8 +121,6 @@ En nuestro documento HTML, seguirá apareciendo el icono de una imagen rota, per
 
 El uso de la etiqueta `audio` es muy similar al de la etiqueta `img`. Al igual que con las imágenes, se utiliza el atributo `src` para indicar la ruta del archivo de audio, y el atributo `alt` puede emplearse para proporcionar un texto descriptivo alternativo (aunque no es estándar en `audio`). Además, en la etiqueta `audio` es necesario incluir el atributo `controls` para que el navegador muestre los controles de reproducción, como reproducir, pausar o ajustar el volumen.
 
-Nota: Técnicamente, el atributo `alt` no se usa en la etiqueta `audio`. Si lo deseas, puedo ayudarte a corregir esa parte con una explicación más precisa sobre cómo se maneja el contenido alternativo en audio. ¿Te gustaría que lo aclare?
-
 En HTML, la etiqueta `audio` no utiliza el atributo alt. A diferencia de la etiqueta `img`, que sí usa alt para mostrar un texto alternativo cuando la imagen no se carga, en el caso de `audio`, el contenido alternativo se coloca entre las etiquetas de apertura y cierre (<audio>...</audio>).
 
 Este contenido se muestra solo si el navegador no admite la reproducción de audio, funcionando como una alternativa para el usuario.
